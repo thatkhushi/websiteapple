@@ -1,0 +1,42 @@
+<h1 style="color: black;">
+</h1> <h3 style="color:grey;">
+</h3></span>
+MACBOOK AIR WITH M2 CHIP <br>Don't take it lightly.<br>From Rs 119900.00
+<span style="color:grey" class="content1">MACBOOK AIR WITH M2 CHIP</span><br><span style="color:black;" class="content2">Don't take it lightly.</span><br><span st From Rs 119900.00</span>yle="color:grey;" class="content3">
+#midimage-4
+{
+  margin: -201px 3px -20px 4px;
+    width: 97%;
+    max-height: 163%;
+}
+                                        <!DOCTYPE html>                    <html>                        <head>                        <title>Page Title</title>                        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>                       </head>                        <body>                        <i class='fa fa-arrow-circle-right'></i>                        </body>                    </html>    
+
+                                        if(count==1){
+    document.getElementById("box-4").style.display="block";
+    document.getElementById("box-1").style.display="none";
+    count++;
+    }
+    else if(count==2)
+    {
+        document.getElementById("box-5").style.display="block";
+        document.getElementById("box-2").style.display="none";
+        count++;
+    }
+    else if(count==3)
+    {
+        document.getElementById("box-6").style.display="block";
+        document.getElementById("box-3").style.display="none";
+        count++;
+    }
+    else if(count==4)
+    {
+        document.getElementById("box-7").style.display="block";
+        document.getElementById("box-4").style.display="none";
+        count++;
+    }
+    else if(count==5)
+    {
+        document.getElementById("box-8").style.display="block";
+        document.getElementById("box-5").style.display="none";
+        count=1;
+    }                
