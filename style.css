@@ -10,7 +10,6 @@ body {
   color: aliceblue;
   background-color: rgb(43, 43, 43);
   cursor: pointer;
-  
 }
 
 .navItems {
@@ -67,64 +66,11 @@ img {
   margin-left: 13px;
   cursor: pointer;
 }
-#image1 {
-  margin-left: 260px;
-}
+
 .names {
   margin-left: 260px;
 }
-#text-1,
-#text-2,
-#text-3,
-#text-4,
-#text-6,
-#text-7,
-#text-8,
-#text-9,
-#text-5 {
-  padding: 35px;
-  /* margin-left: 12px; */
-  /* padding-top: 20px; */
-  font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica,
-    Arial, sans-serif;
-  font-weight: 400;
-  cursor: pointer;
-  letter-spacing: -0.016em;
-  /* margin-top: 50px; */
-}
-#text-1 {
-  margin-left: 18px;
-  margin-top: 50px;
-}
-#text-2 {
-  margin-left: 15px;
-}
-#text-3 {
-  margin-left: 18px;
-}
-#text-4 {
-  margin-left: 15px;
-}
-#text-5 {
-  margin-left: 8px;
-  padding: 12px;
-}
-#text-6 {
-  margin-left: 30px;
-  padding: 45px;
-}
-#text-7 {
-  margin-left: 18px;
-  padding: 15px;
-}
-#text-8 {
-  margin-left: 18px;
-  padding: 15px;
-}
-#text-9 {
-  margin-left: 13px;
-  padding: 13px;
-}
+
 #text-1:hover,
 #text-2:hover,
 #text-3:hover,
@@ -140,7 +86,7 @@ img {
 
 .sentence {
   font-size: 28px;
-  margin-top: 150px;
+  margin-top: 79px;
   font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica,
     Arial, sans-serif;
   margin-left: 290px;
@@ -149,7 +95,7 @@ img {
 
 .upperCards {
   margin-left: 260px;
-  margin-top: 30px;
+  margin-top: -9px;
   padding: 20px;
   display: grid;
   grid-template-columns: 480px 480px 480px 480px 480px 480px 480px 480px;
@@ -176,7 +122,6 @@ img {
   cursor: pointer;
 }
 #box-3 {
-  
   box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
   /* width: 401px;
     height: 404px; */
@@ -184,7 +129,6 @@ img {
   border-radius: 18px;
   margin: 10px;
   cursor: pointer;
-  
 }
 #box-4 {
   box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
@@ -194,7 +138,7 @@ img {
   border-radius: 18px;
   margin: 10px;
   cursor: pointer;
-  display:none;
+  display: none;
 }
 #box-5 {
   box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
@@ -204,7 +148,7 @@ img {
   border-radius: 18px;
   margin: 10px;
   cursor: pointer;
-  display:none;
+  display: none;
 }
 #box-6 {
   box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
@@ -214,7 +158,7 @@ img {
   border-radius: 18px;
   margin: 10px;
   cursor: pointer;
-  display:none;
+  display: none;
 }
 #box-7 {
   box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
@@ -225,7 +169,7 @@ img {
   margin: 10px;
   cursor: pointer;
   background-color: black;
-  display:none;
+  display: none;
 }
 #box-8 {
   box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
@@ -235,14 +179,14 @@ img {
   border-radius: 18px;
   margin: 10px;
   cursor: pointer;
-  display:none;
+  display: none;
 }
 #sen1 {
   margin-top: 100px;
 }
 .middleCard {
   margin-left: 260px;
-  margin-top: 30px;
+  margin-top: 3px;
   padding: 20px;
   display: grid;
   grid-template-columns: 480px 480px;
@@ -257,6 +201,59 @@ img {
   margin: 10px;
   cursor: pointer;
 }
+#gradientText {
+  font-size: 29px;
+  font-weight: bold;
+  font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica,
+    Arial, sans-serif;
+  background: linear-gradient(90deg, #592d6b 0, #c26693 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-left: 34px;
+}
+#midimage-9 {
+  margin: -164px -17px -24px -22px;
+  width: 110%;
+  max-height: 210%;
+}
+#midimage-10 {
+  margin: -96px -17px -12px 3px;
+  width: 454px;
+  max-height: 279px;
+}
+#normalText {
+  font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica,
+    Arial, sans-serif;
+  margin-left: 28px;
+  color: #1d1d1f;
+  font-size: 24px;
+  line-height: 1.16667;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+#midimage-11 {
+  float: right;
+  margin: -154px -23px -19px -18px;
+  width: 488px;
+  max-height: 279px;
+}
+#textleft {
+  float: left;
+  font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica,
+    Arial, sans-serif;
+  margin-left: 28px;
+  margin-right: 200px;
+  margin-top: 69px;
+  color: #1d1d1f;
+  font-size: 26px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+#twoCards {
+  display: grid;
+  grid-template-rows: 256px 256px;
+}
 #card-2 {
   box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
   /* width: 401px;
@@ -266,11 +263,21 @@ img {
   margin: 10px;
   cursor: pointer;
 }
+#card-3 {
+  box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+  /* width: 401px;
+    height: 404px; */
+  background-color: #fff;
+  border-radius: 18px;
+  margin: 10px;
+  cursor: pointer;
+  background-image: linear-gradient(#1300ff14, rgb(223 189 223 / 68%));
+}
 #areaAround-1 {
   display: grid;
   grid-template-rows: 51px 54px 60px 217px;
 }
-.content-1{
+.content-1 {
   margin: 25px 0 0 38px;
 
   word-spacing: normal;
@@ -285,22 +292,22 @@ img {
   font-size: 30px;
   font-weight: bold;
 }
-.content-3{
+.content-3 {
   margin: 16px 0 0 38px;
-color: grey;
+  color: grey;
   word-spacing: normal;
   font-size: 19px;
 }
-#midimage-1{
+#midimage-1 {
   margin: -116px -14px -41px 25px;
   width: 91%;
   max-height: 198%;
 }
-#areaAround-2{
+#areaAround-2 {
   display: grid;
   grid-template-rows: 48px 60px 60px 217px;
 }
-#content-4{
+#content-4 {
   margin: 25px 0 0 38px;
 
   word-spacing: normal;
@@ -308,95 +315,345 @@ color: grey;
   font-weight: bold;
   color: grey;
 }
-#content-5{
+#content-5 {
   margin: 14px 0 0 38px;
 
   word-spacing: normal;
   font-size: 30px;
   font-weight: bold;
 }
-#content-6
-{
+#content-6 {
   margin: 30px 0 0 38px;
   color: grey;
   word-spacing: normal;
   font-size: 19px;
-  
 }
-#midimage-2{
+#midimage-2 {
   margin: -116px -14px -41px 25px;
   width: 91%;
   max-height: 198%;
 }
-#midimage-3
-{
-   margin: -365px 3px -20px 4px;
-    width: 97%;
-    max-height: 163%;
-
+#midimage-3 {
+  margin: -365px 3px -20px 4px;
+  width: 97%;
+  max-height: 163%;
 }
-#arrow-1{
-  opacity:0.3;
+#arrow-1 {
+  opacity: 0.3;
   margin: 112px -1px 3px 0;
   visibility: hidden;
-} 
+}
 
-#midimage-4
-{
+#midimage-4 {
   margin: -376px 3px -20px 4px;
-    width: 97%;
-    max-height: 163%;
+  width: 97%;
+  max-height: 163%;
 }
-#arrow-2
-{
-  opacity:0.3;
+#arrow-2 {
+  opacity: 0.3;
   margin: 112px -1px 3px 0;
   visibility: hidden;
-  
 }
 
-#midimage-5
-{
+#midimage-5 {
   margin: -364px 3px -20px 4px;
-    width: 97%;
-    max-height: 163%;
+  width: 97%;
+  max-height: 163%;
 }
-#arrow-3
-{
-  opacity:0.3;
+#arrow-3 {
+  opacity: 0.3;
   margin: 112px -1px 3px 0;
   visibility: hidden;
-  
 }
-#midimage-6
-{
+#midimage-6 {
   margin: -360px 3px -21px 1px;
-    width: 97%;
-    max-height: 163%;
+  width: 97%;
+  max-height: 163%;
 }
-#arrow-4
-{
-  opacity:0.3;
+#arrow-4 {
+  opacity: 0.3;
   margin: 112px -1px 3px 0;
   visibility: hidden;
-  
 }
-#midimage-7
-{
+#midimage-7 {
   margin: -313px 3px -20px 4px;
-    width: 93%;
-    max-height: 163%;
+  width: 93%;
+  max-height: 163%;
 }
-#arrow-5
-{
-  opacity:0.3;
+#arrow-5 {
+  opacity: 0.3;
   margin: 112px -1px 3px 0;
   visibility: hidden;
+}
+#midimage-8 {
+  margin: -237px 8px -14px 4px;
+  width: 99%;
+  max-height: 163%;
+}
+.images {
+  display: grid;
+  /* grid-template-rows:142px 20px; */
+  margin-left: 250px;
+  grid-template-columns: 135px 120px 137px 140px 116px 114px 132px 140px 140px;
+}
+#text-1 {
+  margin-left: 69px;
+  font-weight: bold;
+}
+#text-2 {
+  margin-left: 45px;
+  font-weight: bold;
+}
+#text-3 {
+  margin-left: 57px;
+  font-weight: bold;
+}
+#text-4 {
+  margin-left: 27px;
+  font-weight: bold;
+}
+#text-5 {
+  margin-left: 48px;
+  font-weight: bold;
+}
+#text-6 {
+  margin-left: 51px;
+  font-weight: bold;
+}
+#text-7 {
+  margin-left: 43px;
+  font-weight: bold;
+}
+#text-8 {
+  margin-left: 23px;
+  font-weight: bold;
+}
+#text-9 {
+  margin-left: 32px;
+  font-weight: bold;
+}
+#sen2 {
+  margin-left: 290px;
+}
+.lastCard {
+  margin-left: 260px;
+  margin-top: 3px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 360px 360px 360px 360px 360px 360px;
+  grid-template-rows: 287px 0px;
+}
+#lcard-1 {
+  box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+  /* width: 401px;
+    height: 404px; */
+  background-color: #fff;
+  border-radius: 18px;
+  margin: 10px;
+  cursor: pointer;
+}
+.lastImage-1 {
+  width: 102%;
+  max-height: 100%;
+  border-radius: 18px 18px 29px 29px;
+  margin: 1px -10px -27px 1px;
+}
+.dd-card-header {
+  margin: -159px 3px 10px 35px;
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+}
+#lcard-2 {
+  box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+  /* width: 401px;
+    height: 404px; */
+  background-color: #fff;
+  border-radius: 18px;
+  margin: 10px;
+  cursor: pointer;
+}
+#lcard-3 {
+  box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+  /* width: 401px;
+    height: 404px; */
+  background-color: #fff;
+  border-radius: 18px;
+  margin: 10px;
+  cursor: pointer;
+}
+#lcard-4 {
+  box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+  /* width: 401px;
+    height: 404px; */
+  background-color: #fff;
+  border-radius: 18px;
+  margin: 10px;
+  cursor: pointer;
+}
+#lcard-5 {
+  box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+  /* width: 401px;
+    height: 404px; */
+  background-color: #fff;
+  border-radius: 18px;
+  margin: 10px;
+  cursor: pointer;
+  /* display: none; */
+}
+#lcard-6 {
+  box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+  /* width: 401px;
+    height: 404px; */
+  background-color: #fff;
+  border-radius: 18px;
+  margin: 10px;
+  cursor: pointer;
+  /* display: none; */
+}
+
+#sen3 {
+  margin-left: 290px;
+}
+.finishCards {
+  margin-left: 260px;
+  margin-top: 3px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 425px 360px 360px 360px 360px 360px;
+  grid-template-rows: 512px 0px;
+}
+#fcard-1 {
+  box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+  /* width: 401px;
+    height: 404px; */
+  background-color: #fff;
+  border-radius: 18px;
+  margin: 10px;
+  cursor: pointer;
+}
+#fcard-1 img {
+  width: 99%;
+  max-height: 199%;
+  margin: -3px 10px 10px 3px;
+  border-radius: 18px 18px 24px 27px;
+}
+#fcard-2 {
+  box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+  /* width: 401px;
+    height: 404px; */
+  background-color: #fff;
+  border-radius: 18px;
+  margin: 10px;
+  cursor: pointer;
+}
+#fcard-2 img {
+  width: 79%;
+  max-height: 192%;
+  margin: 41px 8px 1px 37px;
+  /* border-radius: 18px 18px 24px 27px; */
+}
+#fcard-3 img {
+  width: 79%;
+  max-height: 192%;
+  margin: 41px 8px 1px 37px;
+  /* border-radius: 18px 18px 24px 27px; */
+}
+#fcard-4 img {
+  width: 79%;
+  max-height: 192%;
+  margin: 41px 8px 1px 37px;
+  /* border-radius: 18px 18px 24px 27px; */
+}
+#fcard-5 img {
+  width: 79%;
+  max-height: 192%;
+  margin: 41px 8px 1px 37px;
+  /* border-radius: 18px 18px 24px 27px; */
+}
+#fcard-6 img {
+  width: 79%;
+  max-height: 192%;
+  margin: 41px 8px 1px 37px;
+  /* border-radius: 18px 18px 24px 27px; */
+}
+.dots {
+  width: 3%;
+}
+#dots-five {
+  display: grid;
+  grid-template-columns: 23px 23px 23px 23px 23px;
+  margin: -36px 0px 0px 83px;
+}
+.areaAround-txt
+{
+  display: grid;
+  grid-template-rows: 300px 300px 300px 300px;
+}
+#fcard-2text-1 {
+  /* display: inline; */
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1d1d1f;
+  margin: 0px 0px 0px 0px;
+  letter-spacing: 0.009rem;
   
 }
-#midimage-8
-{
-  margin: -237px 8px -14px 4px;
-    width: 99%;
-    max-height: 163%;
+#fcard-2text-2 {
+  font-size: 10px;
+  font-weight: bold;
+  color: grey;
+  margin: 0px 0px 0px 0px;
+  letter-spacing: 0.009rem;
+  
+}
+#fcard-3 {
+  box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+  /* width: 401px;
+    height: 404px; */
+  background-color: #fff;
+  border-radius: 18px;
+  margin: 10px;
+  cursor: pointer;
+}
+#fcard-4 {
+  box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+  /* width: 401px;
+    height: 404px; */
+  background-color: #fff;
+  border-radius: 18px;
+  margin: 10px;
+  cursor: pointer;
+}
+#fcard-5 {
+  box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+  /* width: 401px;
+    height: 404px; */
+  background-color: #fff;
+  border-radius: 18px;
+  margin: 10px;
+  cursor: pointer;
+  /* display: none; */
+}
+#fcard-6 {
+  box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+  /* width: 401px;
+    height: 404px; */
+  background-color: #fff;
+  border-radius: 18px;
+  margin: 10px;
+  cursor: pointer;
+  /* display: none; */
+}
+#sen4 {
+  font-weight: 300;
+}
+#conclusion {
+  color: grey;
+  margin-left: 280px;
+  margin-right: 230px;
+  font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica,
+    Arial, sans-serif;
+  font-size: 12px;
 }
